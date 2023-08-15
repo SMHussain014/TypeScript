@@ -1,0 +1,7 @@
+// Exercise 35
+// Perform for loop upon an array of three pets
+let animals: string[] = ['dog', 'cat', 'rabbit'];
+animals.forEach(function(animal) {
+    console.log(`A ${animal} would make a great pet.`);
+});
+console.log('Any of these animals would make a great pet!');
