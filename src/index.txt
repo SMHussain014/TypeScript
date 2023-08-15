@@ -83,3 +83,21 @@ One can send his code on github's repository by following three simple steps.
 git remote add origin https://github.com/SMHussain014/TypeScript.git
 git branch -M main
 git push -u origin main
+
+How to make Collaborators?
+At first, select the repository that one want to share. Then go to setting, click on 
+collaborator, a dialog box will open. Here enter the name of repository and send invitation.
+As soon as the collaborator accepts one's invitation, he/she can amend one's code.
+
+How to make Open Source Contribution?
+One has to make a public repository so that other developers can make Open Source Contribution
+in it. Now a developer can make a copy of that repository by using 'fork' option from his 
+repository. In this way original repository will remain in contact and a copy of that repository
+will be created in that developer's repository.
+Now, a developer has to make this repository as local by using the following command for that 
+type 'git clone repository_url' and press Enter. (This url can be copied from 'Code' button) 
+Now he can suggest any changes in this cloned copy and send back the same to you by clicking on 
+'contribute button' and thereafter make 'pull request'. 
+This is ready, if one desires he can opt for that changes, for that go to 'Pull Requests', make
+review of that and approve for changes. Now, first person can merge that changes in its original
+file.
