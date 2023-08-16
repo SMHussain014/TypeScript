@@ -9,7 +9,7 @@ function calculator() {
 };
 // calling the function
 calculator();
-console.log(`Alternative Method-1`);
+console.log(`Alternative Method`);
 // declare functions of return type, i.e. taking input and giving output
 function sumCalculator(a: number, b: number) {
     let c: number = a + b;
@@ -25,12 +25,7 @@ function multiplicationCalculator(a: number, b: number) {
 };
 function divisionCalculator(a: number, b: number) {
     let c: number = a / b;
-    if (b == 0) {
-        console.log(`Division by Zero is not allowed`);
-    } 
-    else {
-        return c;
-    };
+    return c;
 };
 let c1 = sumCalculator(2, 6);
 console.log(`The result of addition of 2 and 6 is: ${c1}.`);
@@ -38,6 +33,5 @@ let c2 = subtractionCalculator(10, 2);
 console.log(`The result of Subtraction from 10 to 2 is: ${c2}.`);
 let c3 = multiplicationCalculator(4, 2);
 console.log(`THe result of multiplication of 4 with 2 is: ${c3}.`);
-let c4 = divisionCalculator(16, 2);
+let c4 = divisionCalculator(16, 0);
 console.log(`The result of division of 16 by 2 is: ${c4}.`);
-export { c1, c2, c3, c4 };

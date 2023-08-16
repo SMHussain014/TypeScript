@@ -13,9 +13,9 @@ function multiplicationCalculator(a: number, b: number) {
     return c;
 };
 function divisionCalculator(a: number, b: number) {
-    let c: number = a / b;
+    let c: number = Math.round(a / b);
     if (b == 0) {
-        console.log(`Division by Zero is not allowed`);
+        console.log(`Division by Zero is not allowed.`);
     }
     else {
         return c;
@@ -47,4 +47,4 @@ let c15 = modulusCalculator(fNum, sNum);
 console.log(`The result of modulus of ${fNum} by ${sNum} is: ${c15}.`);
 let c16 = exponentialCalculator(fNum, sNum);
 console.log(`The result of ${fNum}'s power to ${sNum} is: ${c16}.`);
-export { };
+export {};

@@ -18,9 +18,9 @@ function multiplicationCalculator(a, b) {
 }
 ;
 function divisionCalculator(a, b) {
-    let c = a / b;
+    let c = Math.round(a / b);
     if (b == 0) {
-        console.log(`Division by Zero is not allowed`);
+        console.log(`Division by Zero is not allowed.`);
     }
     else {
         return c;
