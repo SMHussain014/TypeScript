@@ -39,5 +39,5 @@ let c2 = subtractionCalculator(10, 2);
 console.log(`The result of Subtraction from 10 to 2 is: ${c2}.`);
 let c3 = multiplicationCalculator(4, 2);
 console.log(`THe result of multiplication of 4 with 2 is: ${c3}.`);
-let c4 = divisionCalculator(16, 0);
+let c4 = divisionCalculator(16, 2);
 console.log(`The result of division of 16 by 2 is: ${c4}.`);

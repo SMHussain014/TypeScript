@@ -1,4 +1,8 @@
 // Exercise No. 46
+/* 
+In Exercise No.07, we have created a calculator of both 'void' and 'return' types. However, 
+these cannot take input from a real time user.
+*/
 // Design a calculator that has two parameters and takes two arguments as User's input
 function sumCalculator(a: number, b: number) {
     let c: number = a + b;
