@@ -5,22 +5,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // declare a function that takes Marks Obtained and Total Marks from user as arguments
 function gradingSystem(x, y) {
     let z = Math.trunc((x / y) * 100);
-    if (z >= 90) {
+    if (z > 90 && z <= 100) {
         return console.log(`Excellent Performance, Your Percentage is ${z}% and earned Grade is "A+".`);
     }
-    else if (z >= 80) {
+    else if (z > 80 && z <= 90) {
         return console.log(`Very Good Performance, Your Percentage is ${z}% and earned Grade is "A".`);
     }
-    else if (z >= 70) {
+    else if (z > 70 && z <= 80) {
         return console.log(`Good Performance, Your Percentage is ${z}% and earned Grade is "B+".`);
     }
-    else if (z >= 60) {
+    else if (z > 60 && z <= 70) {
         return console.log(`Bravo, Your Percentage is ${z}% and earned Grade is "B".`);
     }
-    else if (z >= 50) {
+    else if (z > 50 && z <= 60) {
         return console.log(`Fair, Your Percentage is ${z}% and earned Grade is "C".`);
     }
-    else if (z >= 40) {
+    else if (z > 40 && z <= 50) {
         return console.log(`Just Passed, Need Hard Work, Your Percentage is ${z}% and earned Grade is "D".`);
     }
     else {
