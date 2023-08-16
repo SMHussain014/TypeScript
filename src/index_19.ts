@@ -19,9 +19,6 @@ console.log(guestLists);
 // displaying number of guests invited
 console.log(`The Number of invited Guests is ${guestLists.length}.`);
 // display number of (index of) each element of an Array
-console.log(`The index of first element of the Array is ${guestLists.indexOf("Ali")}.`);
-console.log(`The index of second element of the Array is ${guestLists.indexOf("Rida")}.`);
-console.log(`The index of third element of the Array is ${guestLists.indexOf("Fatima")}.`);
-console.log(`The index of fourth element of the Array is ${guestLists.indexOf("Qasim")}.`);
-console.log(`The index of fifth element of the Array is ${guestLists.indexOf("Imran")}.`);
-console.log(`The index of sixth element of the Array is ${guestLists.indexOf("Hassan")}.`);
+for (let i = 0; i < guestLists.length; i++) {
+    console.log(`The index of element "${guestLists[i]}" of the Array is "${guestLists.indexOf(guestLists[i])}".`);
+}; 
