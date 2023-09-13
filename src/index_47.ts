@@ -1,9 +1,9 @@
 // Exercise No. 47
 /* 
-In Exercise No.46, we have created a calculator of 'return' type that takes two inputs from the 
-user as arguments and produces results at a time. Even this is not a real time calculator due to
-two reasons, i.e. firstly, it cannot take operator from the user and secondly, it produces
-results at a time meaning thereby not one by one.
+In Exercise No.46, we have created a calculator of 'return' type that takes two inputs from 
+the user as arguments and produces results at a time. Even this is not a real time calculator
+due to two reasons, i.e. firstly, it cannot take operator from the user and secondly, it 
+produces results at a time meaning thereby not one by one.
 */
 // Design a calculator that has three parameters and also takes three arguments as User's input
 function calculator(a: number, operator: string, b: number) {
