@@ -12,8 +12,8 @@ c. async await
 /* 
 The code at line No. 9 to 11 can be rewritten as under:
 setTimeout( () => console.log("JavaScript"), 5000);
-The functions in Javascript are first class functions, i.e. in a functions' parameter, we can pass
-another function as parameter. This is call 'callback function'.
+The functions in Javascript are first class functions, i.e. in a functions' parameter, we can 
+pass another function as parameter. This is call 'callback function'.
 */
 // console.log("Final Session");
 /*
@@ -21,8 +21,8 @@ Let us see a real time example by using async javascript
 Let first create a cart containing items to be purchased
 const cart: Array<string> = ['Shoes', 'Pants', 'Shirts'];
 Initially, we have two functions namely createOrder() and proceedToPayment() 
-Note that second function depends upon first function, in this case, callback function comes into
-scene. 
+Note that second function depends upon first function, in this case, callback function comes 
+into scene. 
 If the payment is successful, we have to call another function called showOrderSummary()
 At Last, we have to update our wallet
 api.createOrder(cart, function () {
